@@ -1,0 +1,12 @@
+{
+  "BiometricPhoto" : {
+    "contentType" : "image/png",
+    "fileName" : "BiometricPhoto.png",
+    "data" : [ ]
+  },
+  "Signature" : {
+    "contentType" : "image/png",
+    "fileName" : "Signature.png",
+    "data" : [ ]
+  }
+}

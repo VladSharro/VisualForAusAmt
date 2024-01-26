@@ -62,6 +62,10 @@ public class PassportClass extends VerticalLayout {
                 .setWeekdaysShort(Arrays.asList("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"));
 
         TextField firstName = new TextField("First name");
+        firstName.setPlaceholder("Please input your name"); // inside
+        firstName.setHelperText("Please input your first name"); // down of field
+
+
         TextField lastName = new TextField("Last name");
         DatePicker dateOfBirth = new DatePicker("Date of birth");
         dateOfBirth.setI18n(i18n);

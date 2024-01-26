@@ -67,7 +67,16 @@ public class ApplicationView extends VerticalLayout {
 
 
         tabs.setSelectedTab(passportTab);
-        familyContent.setVisible(false); // Скрываем содержимое вкладки "Family"
+
+        familyContent.setVisible(false);
+        recidenceContent.setVisible(false);
+        visaContent.setVisible(false);
+        supportContent.setVisible(false);
+        insuranceContent.setVisible(false);
+        OffenceContent.setVisible(false);
+        PhotoContent.setVisible(false);
+
+
 
 
 
